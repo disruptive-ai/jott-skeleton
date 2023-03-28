@@ -16,7 +16,7 @@
 		<ul class="whitespace-normal break-words">
 			{#each blogPosts as post}
 				<li>
-					<a href="/posts/{post.id}">
+					<a href="/post/{post.id}">
 						<strong>{post.title}</strong>
 					</a>
 					<!-- Author: {post.author} -->
