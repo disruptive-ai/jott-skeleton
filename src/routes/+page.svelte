@@ -4,6 +4,7 @@
 	$: ({ blogPosts } = data);
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Page from './new-post/+page.svelte';
+	
 </script>
 
 <div class="container p-6 space-y-4">
