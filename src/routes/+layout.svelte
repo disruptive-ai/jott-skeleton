@@ -10,6 +10,7 @@
 	import SideNavigation from '$lib/SideNavigation.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import { Avatar } from '@skeletonlabs/skeleton';
+	import JottImage from "../static/jott.png";
 
 	function drawerOpen(): void {
 		drawerStore.open({});
@@ -24,7 +25,7 @@
 				<Avatar
 					class="h-12"
 					width="w-12"
-					src="jott.png"
+					src={JottImage}
 					border="border-4 border-surface-300-600-token hover:!border-primary-500"
 					cursor="cursor-pointer"
 				/>
