@@ -7,5 +7,5 @@
   
 
 <h1>{singleBlogPost.title}</h1>
-<p>{singleBlogPost.content}</p>
+<p>{@html singleBlogPost.content}</p>
   
