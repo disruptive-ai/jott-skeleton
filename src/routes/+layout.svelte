@@ -31,7 +31,7 @@
 			</svelte:fragment>
 
 			<svelte:fragment slot="trail">
-				<a href="/new-post" class="btn variant-soft-primary">New Post</a>
+				<!-- <a href="/new-post" class="btn variant-soft-primary">New Post</a> -->
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
